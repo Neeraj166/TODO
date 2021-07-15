@@ -14,7 +14,7 @@ use App\Http\Controllers\TasksController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/ab', function () {
     return view('welcome');
 });
 
